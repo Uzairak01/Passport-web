@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* navigation bar start */
+.hamburger{
+    display: none;
+}
+
+.close{
+    display: none;
+}
+
+.container-fluid{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.container-fluid .logo{
+    margin: 10px;
+}
+
+.container-fluid .navigation{
+    top: 7px;
+    position: relative;
+}
+
+.container-fluid .buttons{
+    margin: 10px;
+    color: rgb(46, 104, 192);
+}
+
+.container-fluid .buttons span{
+    font-size: larger;
+    font-weight: 600;
+}
+
+.navigation ul{
+    list-style: none;
+}
+
+.navigation ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+
+.navigation ul li a{
+    display: block;
+    padding: 16px 20px;
+    text-decoration: none;
+    color: rgb(46, 104, 192);
+    font-size: larger;
+    font-weight: 600;
+    text-align: center;
+}
+
+.navigation ul li ul.dropdown li{
+    display: block;
+}
+
+.navigation ul li ul.dropdown{
+    width: 100%;
+    position: absolute;
+    z-index: 111;
+    display: none;
+}
+
+ul li a:hover{
+    background-color: aliceblue;
+    border-radius: 8px;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+@media (max-width: 1350px) {
+    nav{
+        background-image: url(imgs/logo.png);
+        background-repeat: no-repeat;
+        background-size: 100px;
+        background-position: start;
+    }
+
+    .container-fluid{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        position: relative;
+        width: 330px;
+        left: -100%;
+        top: 78px;
+        transition: all .5s ease-out;
+        backdrop-filter: blur(35px);
+        z-index: 111;
+    }
+
+    .container-fluid .logo{
+        display: none;
+    }
+
+    .hamburger{
+        width: 40px;
+        display: block;
+        right: 12px;
+        top:17px;
+        position: absolute;
+        cursor: pointer;
+    }
+
+
+    .close{
+        font-size: 30px;
+        font-weight: 900;
+        width: 40px;
+        display: none;
+        right: 12px;
+        top: 17px;
+        position: absolute;
+        z-index: 999;
+    }
+
+    .close:hover{
+        cursor: pointer;
+        color: red;
+    }
+
+    .container-fluid .buttons{
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+/* navigation bar end */
+
+/* hero section start */
+.hero{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.all{
+    background-image: url(imgs/hero\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 94%;
+    height: 100%;
+    display: flex;
+}
+
+.description{
+    width: 500px;
+    text-align: start;
+}
+
+.trustPilot{
+    background: rgb(255, 255, 255);
+    border-radius: 6px;
+    width: auto;
+}
+
+.hero-img{
+    width: 600px;
+    right: -180px;
+    position: relative;
+}
+
+@media (max-width: 700px) {
+    .hero{
+        top: 80px;
+        position: absolute;
+    }
+
+    .all{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .description{
+        width: 330px;
+        text-align: center;
+    }
+
+    .hero-img{
+        top: -50px;
+        width: 330px;
+        right: 0px;
+        position: relative;
+    }
+}
+/* hero section end */
+
+/* section 1 start */
+@media (max-width: 1200px) {
+    .one{
+        top: 1050px;
+        position: absolute;
+    }
+    
+    .one .container{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        position: relative;
+        align-items: center;
+    }
+        
+}
+/* section 1 end */
+
+/* section 2 start */
+.two{
+    background-color: aliceblue;
+}
+
+.two-2{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.two-2 .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.two-2 .card{
+    max-width: 500px;
+    height: auto;
+    left: 60px;
+}
+
+@media (max-width: 700px) {
+    .two{
+        position: relative;
+        top: 1030px;        
+    }
+
+    .two-2 .container{
+        background-color: aliceblue;
+        position: relative;
+        top: 990px;
+    }
+
+    .two-2 .card{
+        left: 0;
+    }
+}
+/* section 2 end */
