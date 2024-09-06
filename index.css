@@ -260,3 +260,42 @@ ul li:hover ul.dropdown{
     }
 }
 /* section 2 end */
+
+/* section 3 start */
+@media (max-width: 700px) {
+    .three{
+        top: 950px;
+        position: relative;
+    }
+    .three-2{
+        top: 950px;
+        position: relative;
+    }
+    .three-2 .threeRowStart{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .three-2 .threeRowStart .card{
+        padding: none;
+        margin: none;
+        width: none;
+    }
+}
+/* section 3 end */
+
+/* section 4 start */
+@media (max-width: 700px) {
+    .four{
+        top: 1000px;
+        position: relative;
+    }
+
+    .four .rowFourStart{
+        display: flex;
+        
+    }
+}
+/* section 4 end */
