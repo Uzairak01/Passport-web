@@ -289,13 +289,16 @@ ul li:hover ul.dropdown{
 /* section 4 start */
 @media (max-width: 700px) {
     .four{
-        top: 1000px;
+        top: 950px;
         position: relative;
     }
 
     .four .rowFourStart{
         display: flex;
-        
+    }
+
+    .four .rowFourStart .col-md-6{
+        margin: 30px;
     }
 }
 /* section 4 end */
