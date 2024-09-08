@@ -287,12 +287,23 @@ ul li:hover ul.dropdown{
 /* section 3 end */
 
 /* section 4 start */
-.four .rowFourStart .col-md-6 .card .icon{
-    font-size: 35px;
-    padding: 20px;
+.four .rowFourStart .col-md-6{
+    margin-top: 20px;
 }
 
-@media (max-width: 700px) {
+.four .rowFourStart .col-md-6 .card .icon{
+    font-size: 30px;
+    left: 19px;
+    top: 7px;
+    position: relative;
+}
+
+.four .rowFourStart .col-md-6 .card-content {
+    background-color: aliceblue;
+    min-height: 224px;
+}
+
+@media (max-width: 1000px) {
     .four{
         top: 950px;
         position: relative;
@@ -303,7 +314,16 @@ ul li:hover ul.dropdown{
     }
 
     .four .rowFourStart .col-md-6{
-        margin: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .four .rowFourStart .col-md-6 .card {
+        margin: 10px;
     }
 }
 /* section 4 end */
+
