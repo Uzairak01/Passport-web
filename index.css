@@ -287,6 +287,11 @@ ul li:hover ul.dropdown{
 /* section 3 end */
 
 /* section 4 start */
+.four .rowFourStart .col-md-6 .card .icon{
+    font-size: 35px;
+    padding: 20px;
+}
+
 @media (max-width: 700px) {
     .four{
         top: 950px;
