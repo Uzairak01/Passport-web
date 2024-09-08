@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
 }
 
 /* navigation bar start */
@@ -327,3 +328,43 @@ ul li:hover ul.dropdown{
 }
 /* section 4 end */
 
+/* section 5 start */
+.five .container .swiper .row{
+    gap: 20px;
+    height: 600px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    overflow: scroll;
+}
+
+.five .container .swiper .row .card{
+    width: 330px;
+    height: 580px;
+    background-image: url(imgs/img-all.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+}
+
+.five .container .swiper .row .card .playBtn{
+    background-color: azure;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 24px;
+    top: 12px;
+    right: 12px;
+    position: absolute;
+}
+
+.five .container .swiper .row .card .content{
+    backdrop-filter: blur(20px);
+    border-radius: 8px;
+    bottom: 12px;
+    position: absolute;
+    width: 300px;
+    padding: 20px;
+}
+/* section 5 end */
