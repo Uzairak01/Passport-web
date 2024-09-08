@@ -367,4 +367,36 @@ ul li:hover ul.dropdown{
     width: 300px;
     padding: 20px;
 }
+
+@media (max-width: 800px) {
+    .five .container{
+        top: 950px;
+        position: relative;
+    }
+}
 /* section 5 end */
+
+/* section 6 start */
+.six{
+    background-color: aliceblue;
+}
+
+.six .card-img{
+    display: flex;
+    justify-content: start;
+    position: relative;
+}
+
+.six .container .card{
+    max-width: 28rem;
+    border: none;
+}
+
+@media (max-width: 800px) {
+    .six .container{
+        top: 1000px;
+        position: relative;
+        background-color: aliceblue;
+    }
+}
+/* section 6 end */
