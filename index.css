@@ -405,16 +405,51 @@ ul li:hover ul.dropdown{
 .seven .box{
     width: 80%;
     height: 800px;
-    background-color: aquamarine;
+    background-color: #fff;
     border-radius: 18px;
     top: -25px;
     position: relative;
+}
+
+.seven .box .left{
+    width: 35%;
+}
+
+.seven .box .right{
+    width: 65%;
+}
+
+.seven .box .left .btns button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: 700;
+    border: none;
+    background-color: #fff;
+    top: -25px;
+    position: relative;
+}
+
+.seven .box .right .dots{
+    font-size: 10px;
+    padding-top: 20px;
+    cursor: pointer;
 }
 
 @media (max-width: 800px) {
     .seven .box{
         top: 950px;
         position: relative;
+    }
+
+    .seven .box .left{
+        width: 100%;
+    }
+
+    .seven .box .right{
+        width: 100%;
+        text-align: justify;
     }
 }
 /* section 7 end */

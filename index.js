@@ -16,4 +16,3 @@ function navBar () {
 }
 
 navBar();
-
