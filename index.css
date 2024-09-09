@@ -400,3 +400,21 @@ ul li:hover ul.dropdown{
     }
 }
 /* section 6 end */
+
+/* section 7 start */
+.seven .box{
+    width: 80%;
+    height: 800px;
+    background-color: aquamarine;
+    border-radius: 18px;
+    top: -25px;
+    position: relative;
+}
+
+@media (max-width: 800px) {
+    .seven .box{
+        top: 950px;
+        position: relative;
+    }
+}
+/* section 7 end */
