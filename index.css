@@ -437,6 +437,48 @@ ul li:hover ul.dropdown{
     cursor: pointer;
 }
 
+.seven .box .thrid .left .figs .circle{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: 600;
+    border-radius: 50%;
+    position: relative;
+    /* margin: 200px; */
+}
+
+.seven .box .thrid .right .boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.seven .box .thrid .right .box-1{
+    /* background-color: aliceblue; */
+    border: 1px solid blue;
+    border-radius: 4px;
+    text-align: start;
+    width: 100px;
+}
+
+.seven .box .thrid .right .box-1 .icon{
+    font-size: 45px;
+}
+
+.seven .box .thrid .right .box-2{
+    border-radius: 4px;
+    text-align: start;
+    width: 100px;
+}
+
+.seven .box .thrid .right .box-2 .icon{
+    font-size: 45px;
+}
+
 @media (max-width: 800px) {
     .seven .box{
         top: 950px;
