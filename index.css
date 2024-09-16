@@ -437,17 +437,28 @@ ul li:hover ul.dropdown{
     cursor: pointer;
 }
 
+.seven .box .thrid .left .figs{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: end;
+    gap: 500px;
+    top: 200px;
+    position: relative;
+}
+
 .seven .box .thrid .left .figs .circle{
     width: 50px;
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: larger;
+    font-size: 30px;
     font-weight: 600;
     border-radius: 50%;
     position: relative;
-    /* margin: 200px; */
+    right: -170px;
+    z-index: 22;
 }
 
 .seven .box .thrid .right .boxes{
@@ -479,14 +490,16 @@ ul li:hover ul.dropdown{
     font-size: 45px;
 }
 
+@media (max-width: 990px) {
+    .seven .box .left{
+        display: none;
+    }
+}
+
 @media (max-width: 800px) {
     .seven .box{
         top: 950px;
         position: relative;
-    }
-
-    .seven .box .left{
-        width: 100%;
     }
 
     .seven .box .right{
