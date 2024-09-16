@@ -508,3 +508,12 @@ ul li:hover ul.dropdown{
     }
 }
 /* section 7 end */
+
+/* section 8 start */
+.eight .container{
+    background-color: rgb(227, 239, 250);
+    top: 1900px;
+    position: relative;
+    border-radius: 12px;
+}
+/* section 8 end */
