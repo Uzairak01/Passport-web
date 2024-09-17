@@ -516,4 +516,19 @@ ul li:hover ul.dropdown{
     position: relative;
     border-radius: 12px;
 }
+
+@media (max-width: 800px) {
+    .eight .container{
+        background-color: rgb(227, 239, 250);
+        top: 3200px;
+        position: relative;
+        border-radius: 12px;
+    }
+
+    .eight .container .swipper .col{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
 /* section 8 end */
