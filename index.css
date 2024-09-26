@@ -532,3 +532,28 @@ ul li:hover ul.dropdown{
     }
 }
 /* section 8 end */
+
+/* section 9 start */
+.nine{
+    top: 1920px;
+    position: relative;
+}
+
+.nine .container{
+    height: 370px;
+    border-radius: 24px;
+}
+
+@media (max-width:800px) {
+   
+    .nine{
+        top: 3220px;
+        position: relative;
+    } 
+
+    .nine .container{
+        height: auto;
+        border-radius: 24px;
+    }
+}
+/* section 9 end */
