@@ -544,6 +544,25 @@ ul li:hover ul.dropdown{
     border-radius: 24px;
 }
 
+.nine .container .passportIcon{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+    bottom: 30px;
+    left: 220px;
+    /* transform: translate(120px); */
+}
+
+.nine .container .planeIcon{
+    position: relative;
+    font-size: 50px;
+    width: 50px;
+    height: 50px;
+    top: -200px;
+    right: -1000px;
+}
+
 @media (max-width:800px) {
    
     .nine{
@@ -554,6 +573,14 @@ ul li:hover ul.dropdown{
     .nine .container{
         height: auto;
         border-radius: 24px;
+    }
+
+    .nine .container .passportIcon{
+        display: none;
+    }
+
+    .nine .container .planeIcon{
+        display: none;
     }
 }
 /* section 9 end */
