@@ -584,3 +584,16 @@ ul li:hover ul.dropdown{
     }
 }
 /* section 9 end */
+
+/* section 10 start */
+.ten{
+    top: 2000px;
+    position: relative;
+}
+
+@media (max-width: 800px) {
+    .ten{
+        top: 3250px;
+    }
+}
+/* section 10 end */
